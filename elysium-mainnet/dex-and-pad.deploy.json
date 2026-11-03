@@ -1,0 +1,125 @@
+{
+  "chainId": 99901,
+  "deployer": "0xAFC6E333A176bcA7aA3043E1810a42ab82D01a1B",
+  "steps": {
+    "v2Factory": {
+      "hash": "0xe5d9f708fd25560ea9904db292d78f546d2e7a8f71a4dde9a0ada887ac328db8",
+      "done": true,
+      "gas": "3051511",
+      "address": "0xC48C733F9cEaC05d79D0d583A15f3C68a14B8715",
+      "block": "139223"
+    },
+    "v2Router": {
+      "hash": "0x9e1e3797875f2f65451ac3d79607e443496494d695a0bae4facee1a359dbf8b0",
+      "done": true,
+      "gas": "4757729",
+      "address": "0x194a77bCA0Ada3Eb15d7B3Af201AcA197dbE3B26",
+      "block": "139243"
+    },
+    "fee.v2": {
+      "hash": "0xdca81763a6208431ba0ac0cd58247aea495819be8c3a5a56b45ea5719ac45134",
+      "done": true,
+      "gas": "45960"
+    },
+    "v3Factory": {
+      "hash": "0x57d90e110f66328879de32eaff20f88a68c6c959a91be0f071495ea07fe404f8",
+      "done": true,
+      "gas": "5440656",
+      "address": "0x7266c0EcfF2A687B4Ad0Ead7B24840929540b697",
+      "block": "139258"
+    },
+    "v3Router": {
+      "hash": "0x1db315ee4a016bddf6f395af71a42f94c13a09e69aab65a565e37cc90cb50182",
+      "done": true,
+      "gas": "2667896",
+      "address": "0x9fae201fa4c0740b1b92DebEcDDfFE74C1Ecd8b3",
+      "block": "139338"
+    },
+    "v3Quoter": {
+      "hash": "0xe13512abd861debe38b464c2325fbd24e80b8fa2b286591b7adeece94aeb15d0",
+      "done": true,
+      "gas": "1836901",
+      "address": "0xc256C98819BB29661Dd66e3DBCE3cA71875D8143",
+      "block": "139352"
+    },
+    "nftDescriptorLib": {
+      "hash": "0x3d3025499675466edc69efde4d0a37aee735d97b7d2cf08149485fce05092720",
+      "done": true,
+      "gas": "5340067",
+      "address": "0xa12bcdC89aBC39D28BDB305259C59D916735786f",
+      "block": "139357"
+    },
+    "descriptor": {
+      "hash": "0x65b1eabca3d08dddaed0eb92d2dbfd11afd42c96903a9e886dcedf6ce143fa18",
+      "done": true,
+      "gas": "1198927",
+      "address": "0xd2eaA286Ae7fc6DD4E65bCa59Cb2209D681BA3b0",
+      "block": "139374"
+    },
+    "npm": {
+      "hash": "0x63f18b4652834bcd5eacea814e3e02ed535ae4990fc6aa27ef3a33027c1b05f4",
+      "done": true,
+      "gas": "5473120",
+      "address": "0xC6Dc519451F58dFd27bB2920EeFAe57597bd91f5",
+      "block": "139381"
+    },
+    "padToken": {
+      "hash": "0x89474badaa1fcca1a5c2bbc0e73a87f84e85a2d8eb76af979c24969896be7244",
+      "done": true,
+      "gas": "838899",
+      "address": "0x4Bf70643c298a7c438f1cAcDBf1F71B041AEEE8E",
+      "block": "139406"
+    },
+    "padLocker": {
+      "hash": "0xf23e7cb23cf7a2e67bd64fb5d18d64fc454ddf70c4583451cdcc28af0c954d44",
+      "done": true,
+      "gas": "987856",
+      "address": "0xa83212Cac640Cb27005B956531c6cB251F14465C",
+      "block": "139412"
+    },
+    "padLauncher": {
+      "hash": "0x90e278ee28e449f5f84cc2b57525b90bb5b683b575e7639f47c6a97ff8570efe",
+      "done": true,
+      "gas": "3867641",
+      "address": "0x3318b09E6e4D222513D8fBCF76205b3c5566d76c",
+      "block": "139422"
+    },
+    "padQuoter": {
+      "hash": "0x7de29d2d0cb39c766ac11285463796c5ec03a5cae8e11d0e93f793e8bd024aab",
+      "done": true,
+      "gas": "242292",
+      "address": "0xc730A76E6339A41Acf2D430264603484Fd592aC8",
+      "block": "139431"
+    },
+    "pad.setLauncher": {
+      "hash": "0xe23027fbb1f554fdde5fac2b0b03b2e8316f89ba95b959c01dfb0a7e4729ae2d",
+      "done": true,
+      "gas": "47822"
+    },
+    "pad.usdcCap": {
+      "hash": "0x8bccd24f90e573900555ae0efba4505a0ec19cebd36bd2845dbde66f37c9b03e",
+      "done": true,
+      "gas": "69411"
+    },
+    "own.v2": {
+      "hash": "0x7ce45a8d6593e0be739f6fb11dfdaf88c67c433d8512b10517371d722401dd1a",
+      "done": true,
+      "gas": "26794"
+    },
+    "own.v3": {
+      "hash": "0xf81ca2584070f7e1767566dbd2c9a7c84bbfc698635ffcd0982ed5704e3ad473",
+      "done": true,
+      "gas": "28500"
+    },
+    "own.launcher": {
+      "hash": "0x3f2529fa606a925277ac17e3191424be99dde5139735534a53c40b65b4dba784",
+      "done": true,
+      "gas": "28709"
+    },
+    "own.locker": {
+      "hash": "0x90d1ad3b54d1e225270b67bec3f4820906fb3d89b185e3a7be475d01d977b012",
+      "done": true,
+      "gas": "28709"
+    }
+  }
+}

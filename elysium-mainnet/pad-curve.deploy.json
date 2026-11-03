@@ -1,0 +1,30 @@
+{
+  "taxImpl": {
+    "hash": "0x6082e5b3d5f38ddf0c8be69e0815850654fe75acb39306495ea82c6ea82b3114",
+    "done": true,
+    "block": "161239",
+    "address": "0x8aFB6A16374520923a6749F32D7E722d0A16CfEa"
+  },
+  "curveImpl": {
+    "hash": "0x7ba6315bc5de9d651203aa5084617fc8259dd1f67b1e75507c297de15d1c0fdb",
+    "done": true,
+    "block": "161252",
+    "address": "0x5cF201Fda7771878FfC68958b2cC28A619421a92"
+  },
+  "curveLauncher": {
+    "hash": "0x2464fb68b29c6df355bdb310ea386636fbc95dbae6fef1f2f220a7416c0aad11",
+    "done": true,
+    "block": "161259",
+    "address": "0xB7F444558A6Ae7ded39E859769bF4497D3FEfFC5"
+  },
+  "usdc": {
+    "hash": "0xd51a3f647f6682d345441c722d0f617bfc6ec958e0169eac6822803ac8444c11",
+    "done": true,
+    "block": "161265"
+  },
+  "owner": {
+    "hash": "0xb6d6aff06e87975d7ef71e3ce11fda5eb43f53217889cd2c55835f27a287208c",
+    "done": true,
+    "block": "161279"
+  }
+}
