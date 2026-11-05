@@ -20,6 +20,24 @@
     "curveImpl": "0x5cF201Fda7771878FfC68958b2cC28A619421a92",
     "curveBlock": 161259
   },
+  "privacy": {
+    "entrypoint": "0xfBa04Fd6819637F8b997223231C92c9938817934",
+    "entrypointImpl": "0x4cb2f39d8766633c0dDe8Cf8AC323290BfbDB5c8",
+    "hypePool": "0x1632E997BBf5D9885fCa2694751bb466C10AE2E4",
+    "usdcPool": "0xB06FfA7Fd64268e2605eFfa26883A5D508C83311",
+    "privateSwap": "0x252C8C653d1c5bf0fce70C0FB49a681271B9e32C",
+    "privatePay": "0x8afdCE86be64AB3fbB34FEf0Ef22b98bde9A839A",
+    "privateLaunch": "0x75331Ff93469B86f0039A414A1a129537b96fF3F",
+    "withdrawalVerifier": "0xCA3A9AF30367cCa9593Cc9BceBc67f1A050c0e4e",
+    "ragequitVerifier": "0x003Be4bE8d28C236Fa5370A1039eDa6a21ac7f91",
+    "poseidonT3": "0x8895E604977aEe0Ad88bD2059C215d10AEA1fB42",
+    "poseidonT4": "0x23d002CBf33Db6B3425516a3C5c87FadC7929ac9",
+    "stealthAnnouncer": "0x55649E01B5Df198D18D95b5cc5051630cfD45564",
+    "stealthRegistry": "0x6538E6bf4B0eBd30A8Ea093027Ac2422ce5d6538",
+    "postman": "0xeb6656F8fEA49eff0Df7D4d524c3eCbff08C7efc",
+    "relayer": "0x4E62DB97CeC4740afE2A43CB3483d8acD01D0038",
+    "block": 780558
+  },
   "extra": {
     "nftDescriptorLib": "0xa12bcdC89aBC39D28BDB305259C59D916735786f",
     "positionDescriptor": "0xd2eaA286Ae7fc6DD4E65bCa59Cb2209D681BA3b0",

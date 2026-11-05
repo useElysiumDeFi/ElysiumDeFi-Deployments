@@ -1,6 +1,6 @@
 # ElysiumDeFi deployments
 
-Contract addresses and deployment records for **ElysiumSwap** (DEX) and **ElysiumPad** (launchpad) on Elysium mainnet.
+Contract addresses and deployment records for **ElysiumSwap** (DEX and ElysiumSwap Private) and **ElysiumPad** (launchpad) on Elysium mainnet.
 
 ElysiumSwap and ElysiumPad are independent projects built on Elysium. They are not affiliated with, or endorsed by, Elysium or Kinetiq.
 
@@ -27,6 +27,37 @@ ElysiumSwap and ElysiumPad are independent projects built on Elysium. They are n
 | NFTDescriptor library | `0xa12bcdC89aBC39D28BDB305259C59D916735786f` | 139357 |
 | NonfungibleTokenPositionDescriptor | `0xd2eaA286Ae7fc6DD4E65bCa59Cb2209D681BA3b0` | 139374 |
 | Aggregator (cross-DEX split routing) | `0xD9106be99e93cC88A0c81522F416fF4e8394fe51` | 141305 |
+
+## ElysiumSwap Private
+
+Private balances, swaps, stealth payments and private ElysiumPad launches. The core is [Privacy Pools](https://github.com/0xbow-io/privacy-pools-core) (Apache-2.0). Deployed on 5 November 2026.
+
+| Contract | Address | Block |
+|---|---|---|
+| Entrypoint (UUPS proxy) | `0xfBa04Fd6819637F8b997223231C92c9938817934` | 780558 |
+| Entrypoint implementation | `0x4cb2f39d8766633c0dDe8Cf8AC323290BfbDB5c8` | 780402 |
+| HYPE pool (PrivacyPoolSimple) | `0x1632E997BBf5D9885fCa2694751bb466C10AE2E4` | 780675 |
+| USDC pool (PrivacyPoolComplex) | `0xB06FfA7Fd64268e2605eFfa26883A5D508C83311` | 780862 |
+| PrivateSwap | `0x252C8C653d1c5bf0fce70C0FB49a681271B9e32C` | 781054 |
+| PrivatePay | `0x8afdCE86be64AB3fbB34FEf0Ef22b98bde9A839A` | 781134 |
+| PrivateLaunch | `0x75331Ff93469B86f0039A414A1a129537b96fF3F` | 781243 |
+| Withdrawal verifier | `0xCA3A9AF30367cCa9593Cc9BceBc67f1A050c0e4e` | 780174 |
+| Ragequit verifier | `0x003Be4bE8d28C236Fa5370A1039eDa6a21ac7f91` | 780251 |
+| PoseidonT3 library | `0x8895E604977aEe0Ad88bD2059C215d10AEA1fB42` | 779978 |
+| PoseidonT4 library | `0x23d002CBf33Db6B3425516a3C5c87FadC7929ac9` | 780059 |
+| ERC-5564 Announcer (canonical, CREATE2) | `0x55649E01B5Df198D18D95b5cc5051630cfD45564` | – |
+| ERC-6538 Registry (canonical, CREATE2) | `0x6538E6bf4B0eBd30A8Ea093027Ac2422ce5d6538` | – |
+
+Pool settings at deployment:
+
+| Pool | Minimum deposit | Deposit fee | Relayer fee cap |
+|---|---|---|---|
+| HYPE | 0.01 HYPE | 0 | 3% |
+| USDC | 1 USDC | 0 | 3% |
+
+Service addresses:
+- Screening (posts the approved-deposit root): `0xeb6656F8fEA49eff0Df7D4d524c3eCbff08C7efc`.
+- Relayer (sends private transactions and pays their gas; fee 0.5%): `0x4E62DB97CeC4740afE2A43CB3483d8acD01D0038`.
 
 ## ElysiumPad (launchpad)
 
@@ -61,6 +92,7 @@ The contract source is at [useElysiumDeFi/ElysiumPad](https://github.com/useElys
 - Deployer: `0xAFC6E333A176bcA7aA3043E1810a42ab82D01a1B`. It holds no roles after deployment.
 - ElysiumSwap v2 protocol fee: on, 1/6 of the 0.3% swap fee.
 - ElysiumSwap v3 protocol fee: set per pool, with a denominator of 6.
+- ElysiumSwap Private: the Entrypoint's owner role is held by the same owner address; the deployer renounced its roles.
 - Current settings can always be read on-chain from each contract.
 
 ## Files
@@ -71,3 +103,4 @@ The other files are deployment records: each step's transaction hash, block, gas
 - `elysium-mainnet/dex-and-pad.deploy.json`: ElysiumSwap v2/v3, ElysiumPad's instant-launch contracts, and the ownership handover.
 - `elysium-mainnet/aggregator.deploy.json`: the Aggregator.
 - `elysium-mainnet/pad-curve.deploy.json`: ElysiumPad's bonding-curve contracts and their configuration transactions.
+- `elysium-mainnet/privacy.deploy.json`: ElysiumSwap Private, the stealth-address contracts, and the ownership handover.

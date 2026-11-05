@@ -1,0 +1,113 @@
+{
+  "chainId": 99901,
+  "deployer": "0xAFC6E333A176bcA7aA3043E1810a42ab82D01a1B",
+  "steps": {
+    "poseidonT3": {
+      "hash": "0x65aaa4c86c6b863311cba26a08cfed7d279effae0bb67c948058f88f0875541a",
+      "done": true,
+      "gas": "5140670",
+      "address": "0x8895E604977aEe0Ad88bD2059C215d10AEA1fB42",
+      "block": "779978"
+    },
+    "poseidonT4": {
+      "hash": "0x8f79449c274a6b018e14aa93f367cfb2e7cc2602c135cb22fb4ae271c803e287",
+      "done": true,
+      "gas": "2773683",
+      "address": "0x23d002CBf33Db6B3425516a3C5c87FadC7929ac9",
+      "block": "780059"
+    },
+    "withdrawalVerifier": {
+      "hash": "0xbbc429cdf9e193d86c85c33aa67fc9586efd451fed2885eee2a77dced480323e",
+      "done": true,
+      "gas": "474090",
+      "address": "0xCA3A9AF30367cCa9593Cc9BceBc67f1A050c0e4e",
+      "block": "780174"
+    },
+    "commitmentVerifier": {
+      "hash": "0xaf2e5cb9dc4f6b61ed1968d79df60da7c1cb8e37e5c005d104781a33b3cf528e",
+      "done": true,
+      "gas": "395267",
+      "address": "0x003Be4bE8d28C236Fa5370A1039eDa6a21ac7f91",
+      "block": "780251"
+    },
+    "entrypointImpl": {
+      "hash": "0x6a294300c9b97e8452d2d5e593ab68e72ac88d324b0a6c1b28c2f50fa2a3d230",
+      "done": true,
+      "gas": "2976375",
+      "address": "0x4cb2f39d8766633c0dDe8Cf8AC323290BfbDB5c8",
+      "block": "780402"
+    },
+    "entrypoint": {
+      "hash": "0x0ee8b08b094c358091440d46ba905738fad1e7be5091e47bd9a7b7be6721a5ec",
+      "done": true,
+      "gas": "290277",
+      "address": "0xfBa04Fd6819637F8b997223231C92c9938817934",
+      "block": "780558"
+    },
+    "pool:HYPE": {
+      "hash": "0xe0f276fce90a42c8a63fdce9ab7e8b4f2d45c05d17115558f2679c680ead01b5",
+      "done": true,
+      "gas": "1646293",
+      "address": "0x1632E997BBf5D9885fCa2694751bb466C10AE2E4",
+      "block": "780675"
+    },
+    "register:HYPE": {
+      "hash": "0xcb3aade126356c38311861223ae2bb60d40a68bacb06196324437ea395399e88",
+      "done": true,
+      "gas": "130444"
+    },
+    "pool:USDC": {
+      "hash": "0x2eb770c3c0eb45e5a5e4a93f3cc49c8173915001101a353f0c7ee938a1dc15c6",
+      "done": true,
+      "gas": "1721755",
+      "address": "0xB06FfA7Fd64268e2605eFfa26883A5D508C83311",
+      "block": "780862"
+    },
+    "register:USDC": {
+      "hash": "0x7f1869ffc7f9617c7c012c1900dda6795ad80bbde7b78cf1fc16fe715abb29f8",
+      "done": true,
+      "gas": "168174"
+    },
+    "privateSwap": {
+      "hash": "0xde0c3df50f54980fcf47ec220e5ada4e433a59af1de4da66abaa5839cda43279",
+      "done": true,
+      "gas": "2065601",
+      "address": "0x252C8C653d1c5bf0fce70C0FB49a681271B9e32C",
+      "block": "781054"
+    },
+    "privatePay": {
+      "hash": "0x5871b280c43f53f5065ed6f50ee8e73d8100565c86236b858b5927bdba4aaf35",
+      "done": true,
+      "gas": "1517521",
+      "address": "0x8afdCE86be64AB3fbB34FEf0Ef22b98bde9A839A",
+      "block": "781134"
+    },
+    "privateLaunch": {
+      "hash": "0x5e562ef80cec54174f09563db23759aaad84618b002ec5c9697c6bac6e32d7bd",
+      "done": true,
+      "gas": "1464213",
+      "address": "0x75331Ff93469B86f0039A414A1a129537b96fF3F",
+      "block": "781243"
+    },
+    "stealth:ERC5564Announcer": {
+      "hash": "0x410a3bcfa5e69487d66a699fc18ff0d1666874a14d8d7c3577a110c3d88e245b",
+      "done": true,
+      "gas": "206972"
+    },
+    "stealth:ERC6538Registry": {
+      "hash": "0xbf1ce268acf8c90daa23d5a5883820178d4a3fbac95ca0bc82d9632f2fc45484",
+      "done": true,
+      "gas": "735166"
+    },
+    "grantOwner": {
+      "hash": "0x0d08e7512d3afabad8f146f04affa19cc8164fc915b0de183928159322fe5ccf",
+      "done": true,
+      "gas": "56281"
+    },
+    "handover": {
+      "hash": "0x2195a35fa9b15755dc77d1ef1f38db7f08e7dc0a8536679c508e0dab1a1a4c1f",
+      "done": true,
+      "gas": "29864"
+    }
+  }
+}
