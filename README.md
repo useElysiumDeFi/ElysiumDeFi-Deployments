@@ -57,7 +57,7 @@ Pool settings at deployment:
 
 Service addresses:
 - Screening (posts the approved-deposit root): `0xeb6656F8fEA49eff0Df7D4d524c3eCbff08C7efc`.
-- Relayer (sends private transactions and pays their gas; fee 0.5%): `0x4E62DB97CeC4740afE2A43CB3483d8acD01D0038`.
+- Relayer (sends private transactions and pays their gas; fee 0.75%): `0x4E62DB97CeC4740afE2A43CB3483d8acD01D0038`.
 
 ## Revenue distributors
 
