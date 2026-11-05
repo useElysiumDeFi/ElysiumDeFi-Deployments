@@ -38,6 +38,11 @@
     "relayer": "0x4E62DB97CeC4740afE2A43CB3483d8acD01D0038",
     "block": 780558
   },
+  "distributors": {
+    "treasury": "0xB8615d95889d354E78D148A8A6c2cb950B32864e",
+    "marketing": "0xA6252E1D294969c8d8DBb7b40EE361f6690380A4",
+    "team": "0x8D570fA4F2aC6b6633B264FDdfb1e4cA9160CA2b"
+  },
   "extra": {
     "nftDescriptorLib": "0xa12bcdC89aBC39D28BDB305259C59D916735786f",
     "positionDescriptor": "0xd2eaA286Ae7fc6DD4E65bCa59Cb2209D681BA3b0",

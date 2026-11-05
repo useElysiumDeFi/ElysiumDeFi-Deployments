@@ -59,6 +59,16 @@ Service addresses:
 - Screening (posts the approved-deposit root): `0xeb6656F8fEA49eff0Df7D4d524c3eCbff08C7efc`.
 - Relayer (sends private transactions and pays their gas; fee 0.5%): `0x4E62DB97CeC4740afE2A43CB3483d8acD01D0038`.
 
+## Revenue distributors
+
+Each splits what it receives (native HYPE or any ERC-20) between up to 10 wallets at set weights. A slot whose wallet is the zero address is disabled. Owned by the owner address below; deployed with every wallet empty, so nothing is paid out until the owner sets them.
+
+| Contract | Address | Block | Weights at deployment |
+|---|---|---|---|
+| Treasury Distributor | `0xB8615d95889d354E78D148A8A6c2cb950B32864e` | 990579 | slots 0–3: 40 / 20 / 25 / 15 (veES rewards, buyback and burn, protocol-owned liquidity, treasury) |
+| Marketing Distributor | `0xA6252E1D294969c8d8DBb7b40EE361f6690380A4` | 990643 | none yet |
+| Team Distributor | `0x8D570fA4F2aC6b6633B264FDdfb1e4cA9160CA2b` | 990816 | none yet |
+
 ## ElysiumPad (launchpad)
 
 Instant launches (straight into a locked 1% ElysiumSwap v3 pool):
@@ -104,3 +114,4 @@ The other files are deployment records: each step's transaction hash, block, gas
 - `elysium-mainnet/aggregator.deploy.json`: the Aggregator.
 - `elysium-mainnet/pad-curve.deploy.json`: ElysiumPad's bonding-curve contracts and their configuration transactions.
 - `elysium-mainnet/privacy.deploy.json`: ElysiumSwap Private, the stealth-address contracts, and the ownership handover.
+- `elysium-mainnet/distributors.deploy.json`: the Treasury, Marketing and Team distributors.

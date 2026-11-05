@@ -1,0 +1,20 @@
+{
+  "treasury": {
+    "hash": "0xe5e5302322c453b7b5eb4dd186457f97630c02e2bcaf5229f88060a08024cac3",
+    "done": true,
+    "block": "990579",
+    "address": "0xB8615d95889d354E78D148A8A6c2cb950B32864e"
+  },
+  "marketing": {
+    "hash": "0x90d89d2d6838600b8e48d8e3e33f048879d7026038a35a714b5c022821edfff2",
+    "done": true,
+    "block": "990643",
+    "address": "0xA6252E1D294969c8d8DBb7b40EE361f6690380A4"
+  },
+  "team": {
+    "hash": "0xaf583905a130f9109fe47cc60c82bf4b07d634d94b74eeed67559e25f749154b",
+    "done": true,
+    "block": "990816",
+    "address": "0x8D570fA4F2aC6b6633B264FDdfb1e4cA9160CA2b"
+  }
+}
